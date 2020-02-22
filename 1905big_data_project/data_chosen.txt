@@ -1,0 +1,31 @@
+Dear Nikita :
+
+We choose the dataset based on a kaggle contest about the review 
+of some products.
+
+Link : https://www.kaggle.com/datafiniti/grammar-and-online-product-reviews
+
+Description : The dataset includes the text and title of the review, the name and manufacturer of the product, reviewer metadata, and more.
+
+Size : 95 MB (maybe it will be larger[with full dataset] or 
+smaller[only part of it] in practice) 
+
+Full Fields Description : https://developer.datafiniti.co/docs/product-data-schema
+
+Sample Lines:
+
+id,brand,categories,dateAdded,dateUpdated,ean,keys,manufacturer,manufacturerNumber,name,reviews.date,reviews.dateAdded,reviews.dateSeen,reviews.didPurchase,reviews.doRecommend,reviews.id,reviews.rating,reviews.sourceURLs,reviews.text,reviews.title,reviews.userCity,reviews.username,upc
+AV13O1A8GV-KLJ3akUyj,Universal Music,"Movies, Music & Books,Music,R&b,Movies & TV,Movie Bundles & Collections,CDs & Vinyl,Rap & Hip-Hop,Bass,Music on CD or Vinyl,Rap,Hip-Hop,Mainstream Rap,Pop Rap",2017-07-25T00:52:42Z,2018-02-05T08:36:58Z,6.03E+11,"602537205981,universalmusic/14331328,universalmusicgroupcashmoney/14331328,pinkfridayromanreloadedreupwdvd/000000000,pinkfridayromanreloadedreupwdvd/b009ntnhju,0602537205981",Universal Music Group / Cash Money,14331328,Pink Friday: Roman Reloaded Re-Up (w/dvd),2012-11-30T06:21:45.000Z,2018-02-04T07:28:12Z,"
+AV14LG0R-jtxr-f38QfS,Lundberg,"Food,Packaged Foods,Snacks,Crackers,Snacks, Cookies & Chips,Rice Cakes,Cakes",2017-07-25T05:16:03Z,2018-02-05T11:27:45Z,73416000391,"lundbergorganiccinnamontoastricecakes/b000fvzw8y,lundbergorganiccinnamontoastricecakes/b005grcqwc,073416000391,lundbergorganiccinnamontoastricecakes/b0013jlzbu,0073416000391,lundbergorganiccinnamontoastricecakes/555222704,lundberg/00574764,lundbergorganiccinnamontoastricecakes/563800996",Lundberg,574764,Lundberg Organic Cinnamon Toast Rice Cakes,2017-07-09T00:00:00.000Z,2017-09-23T02:53:06Z,2017-09-16T09:45:00.000Z,TRUE,,100209113,5,https://www.walmart.com/reviews/product/29775278,Good flavor. This review was collected as part of a promotion.,Good,,Dorothy W,73416000391
+AV14LG0R-jtxr-f38QfS,Lundberg,"Food,Packaged Foods,Snacks,Crackers,Snacks, Cookies & Chips,Rice Cakes,Cakes",2017-07-25T05:16:03Z,2018-02-05T11:27:45Z,73416000391,"lundbergorganiccinnamontoastricecakes/b000fvzw8y,lundbergorganiccinnamontoastricecakes/b005grcqwc,073416000391,lundbergorganiccinnamontoastricecakes/b0013jlzbu,0073416000391,lundbergorganiccinnamontoastricecakes/555222704,lundberg/00574764,lundbergorganiccinnamontoastricecakes/563800996",Lundberg,574764,Lundberg Organic Cinnamon Toast Rice Cakes,2017-07-09T00:00:00.000Z,2017-09-06T04:49:31Z,2017-08-23T10:37:00.000Z,TRUE,,100209113,5,https://www.walmart.com/reviews/product/29775278,Good flavor.,Good,,Dorothy W,73416000391
+
+---
+
+
+There are 5 members in our team(sorted by alphabet order of First Name):
+
+Haozhou Wang A00431268
+Hemanchal Joshi A00433394
+Jiye Wang A00426401
+Naisi Zhen A00431605
+Rishi Karki A00432524
