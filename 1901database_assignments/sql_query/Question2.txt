@@ -1,0 +1,8 @@
+(a) ΠCourse_Name(σDepartment = 'CS'(COURSE));
+(b) Solution-1
+ΠName(σStudent_number=ΠStudent_number(σSection_identifier=ΠSection_identifier(σCourse_number = 'CS3380'(SECTION))(GRADE_REPORT))(STUDENT));
+(b) Solution-2
+ ΠName(σCourse_number = 'CS3380'(STUDENT ⋈Student_number=Student_number(GRADE_REPORT ⋈ Section_identifier = Section_identifier SECTION)));
+(c) ΠInstructor(ΠInstructor,Course_number(SECTION) ÷ ΠCourse_number(σCourse_number = 'CS1310' or Course_number = 'CS3380'(COURSE)));
+(d) ΠInstructor(ΠInstructor,Course_number(SECTION) ÷ ΠCourse_number(σDepartment = 'CS'(COURSE)));
+
