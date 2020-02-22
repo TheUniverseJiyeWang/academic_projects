@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script language="JavaScript" type="text/javascript" src="calculation.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<title>Simple Calculator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header" data-id="persistent" data-position="fixed">
+		<h1>Simple Calculator</h1>
+	</div>
+	<div data-role="navbar">
+		<ul>
+			<li>
+				<a href="name.html" class="ui-btn-active ui-state-persist">Student Information
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div data-role="content" class="content">
+		<label >Enter Numbers</label>
+		<label for="number1">Number 1:</label>
+		<input type='number' name='number1' id='number1'>
+		<label for="number2">Number 2:</label>
+		<input type='number' name='number2' id='number2'>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div data-role="controlgroup" data-type="horizontal" width="100%">
+		<button type="button" class="btn btn-secondary" onclick="add();">Add</button>
+		<button type="button" class="btn btn-secondary" onclick="mul();">Multiply</button>
+		<button type="button" class="btn btn-secondary" onclick="sub();">Substract</button>
+		<button type="button" class="btn btn-secondary" onclick="div();">Divide</button>
+	</div>
+	<br>
+	<br>
+	<table id="data">
+		<tr>
+			<td>Result:</td>
+			<td id='result'>0</td>
+		</tr>
+	</table>
+	<div data-role="footer" data-id="persistent" data-position="fixed">
+		<h1>Redeveloped by Jiye Wang.</h1>
+	</div>
+</div>
+</body>
+</html>

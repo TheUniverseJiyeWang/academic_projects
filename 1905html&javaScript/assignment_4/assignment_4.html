@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=en manifest="manifest.appcache">
+<head>	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+ 	<!-- JQ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+
+  	<!-- JQM -->
+  	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<!--   	<script language="JavaScript" type="text/javascript" src="src_scripts/jquery-1.9.1.min.js"></script>
+  	<script language="JavaScript" type="text/javascript" src="src_scripts/jquery.mobile-1.3.1.min.js"></script> -->
+  	<!-- <script language="JavaScript" type="text/javascript" src="src_scripts/bootstrap.js"></script> -->
+<!--   	<script language="JavaScript" type="text/javascript" src="chromeFileProtocolFix.js"></script>
+  	<script language="JavaScript" type="text/javascript" src="pageLoader.js"></script> -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  	<script language="JavaScript" type="text/javascript" src="functions.js"></script>
+	<title>Studnent Info</title>
+	<meta content="charset=UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<style>
+		table,th,td{
+			border: 1px solid grey;
+			border-collapse: collapse;
+			padding: 5px;
+		}
+		table tr:nth-child(odd){
+			background-color: #6495ED;
+		}
+		table tr:nth-child(even){
+			background-color: #4169E1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- <script language="JavaScript" type="text/javascript" src="functions.js"></script> -->
+
+<div data-role="page" id="pageHome">
+	<div data-role="header" data-id="persistent" data-position="fixed">
+		<h1>Student Info</h1>
+	</div>
+	<div data-role="navbar">
+		<ul>
+			<li>
+				<a href="name.html" class="ui-btn-active ui-state-persist">Student Information</a>
+			</li>
+		</ul>
+	</div>
+
+	<div data-role="content">
+		<div ng-app="formApp" ng-controller = "formController">
+			<p>First Name: <input type="text" ng-model="commodity.first_name"/></p>
+			<p>Last Name: <input type="text" ng-model="commodity.last_name" /></p>
+			<p>Address: <input type="text" ng-model="commodity.address" /></p>
+			<p>Email: <input type="text" ng-model="commodity.email" /></p>
+			<p>Phone Number: <input type="text" ng-model="commodity.phone" /></p>
+
+			<table>
+				<thead>
+					<td><font color="white">First Name</font></td>
+					<td><font color="white">Last Name</font></td>
+					<td><font color="white">Address</font></td>
+					<td><font color="white">Email</font></td>
+					<td><font color="white">Phone Number</font></td>
+				</thead>
+				<tr>
+					<td><font color="white">{{commodity.first_name}}</font></td>
+					<td><font color="white">{{commodity.last_name}}</font></td>
+					<td><font color="white">{{commodity.address}}</font></td>
+					<td><font color="white">{{commodity.email}}</font></td>
+					<td><font color="white">{{commodity.phone}}</font></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div data-role="footer" data-id="persistent" data-position="fixed">
+		<h1>Redeveloped by Jiye Wang.</h1>
+	</div>
+</div>
+</body>
+</html>

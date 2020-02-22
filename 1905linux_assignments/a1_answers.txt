@@ -1,0 +1,141 @@
+Part 1:
+
+1.Yes, when current directory is home directory.
+	1.1 j_wang@lnx:~$ ls ./
+		alice29.txt  binlist.txt  nohup.out  results.txt
+	1.2 j_wang@lnx:~$ ls ~/
+		alice29.txt  binlist.txt  nohup.out  results.txt
+
+2.Yes, when parent directory is home directory.
+	2.1 j_wang@lnx:~$ mkdir test
+	2.2 ls ~/
+		alice29.txt  binlist.txt  nohup.out  results.txt  test
+	2.3 cd test
+	2.4 ls ../
+		alice29.txt  binlist.txt  nohup.out  results.txt  test
+
+3.Yes, if current directory is the root directory, it will show the current directory when using ..
+	3.1 cd /
+	3.2 ls ./
+		bin   home            lib32       media  public  share  tmp      vmlinuz.old
+		boot  initrd.img      lib64       mnt    root    snap   usr
+		dev   initrd.img.old  libx32      opt    run     srv    var
+		etc   lib             lost+found  proc   sbin    sys    vmlinuz
+	3.3 ls ../
+		bin   home            lib32       media  public  share  tmp      vmlinuz.old
+		boot  initrd.img      lib64       mnt    root    snap   usr
+		dev   initrd.img.old  libx32      opt    run     srv    var
+		etc   lib             lost+found  proc   sbin    sys    vmlinuz
+
+4.Yes, for root administrator (root user), root directory is his home directory in old system. But for new system, the home directory of root users is /root.
+
+Part 2:
+
+1. wget https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip
+
+--2019-06-09 22:10:52--  https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip
+Resolving archive.ics.uci.edu (archive.ics.uci.edu)... 128.195.10.252
+Connecting to archive.ics.uci.edu (archive.ics.uci.edu)|128.195.10.252|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20640916 (20M) [application/x-httpd-php]
+Saving to: 'household_power_consumption.zip'
+
+household_power_consumption.zip                    100%[================================================================================================================>]  19.68M  1.79MB/s    in 10s     
+
+2019-06-09 22:11:03 (1.91 MB/s) - 'household_power_consumption.zip' saved [20640916/20640916]
+
+2. unzip household_power_consumption.zip
+
+	Archive:  household_power_consumption.zip
+  	inflating: household_power_consumption.txt 
+
+3. wc -l household_power_consumption.txt
+
+	2075260 household_power_consumption.txt
+
+4.
+	4.1 sort -nk 2 household_power_consumption.txt | head -n 10 > gap_max.txt
+	4.2 cat gap_max.txt
+		1/1/2007;00:00:00;2.580;0.136;241.970;10.600;0.000;0.000;0.000
+		1/1/2007;00:01:00;2.552;0.100;241.750;10.400;0.000;0.000;0.000
+		1/1/2007;00:02:00;2.550;0.100;241.640;10.400;0.000;0.000;0.000
+		1/1/2007;00:03:00;2.550;0.100;241.710;10.400;0.000;0.000;0.000
+		1/1/2007;00:04:00;2.554;0.100;241.980;10.400;0.000;0.000;0.000
+		1/1/2007;00:05:00;2.550;0.100;241.830;10.400;0.000;0.000;0.000
+		1/1/2007;00:06:00;2.534;0.096;241.070;10.400;0.000;0.000;0.000
+		1/1/2007;00:07:00;2.484;0.000;241.290;10.200;0.000;0.000;0.000
+		1/1/2007;00:08:00;2.468;0.000;241.230;10.200;0.000;0.000;0.000
+		1/1/2007;00:09:00;2.486;0.000;242.180;10.200;0.000;0.000;0.000
+
+5.
+	5.1 cat household_power_consumption.txt | tr ';' ',' > hpc.csv
+	5.2 cat hpc.csv | head -n 10
+		Date,Time,Global_active_power,Global_reactive_power,Voltage,Global_intensity,Sub_metering_1,Sub_metering_2,Sub_metering_3
+		16/12/2006,17:24:00,4.216,0.418,234.840,18.400,0.000,1.000,17.000
+		16/12/2006,17:25:00,5.360,0.436,233.630,23.000,0.000,1.000,16.000
+		16/12/2006,17:26:00,5.374,0.498,233.290,23.000,0.000,2.000,17.000
+		16/12/2006,17:27:00,5.388,0.502,233.740,23.000,0.000,1.000,17.000
+		16/12/2006,17:28:00,3.666,0.528,235.680,15.800,0.000,1.000,17.000
+		16/12/2006,17:29:00,3.520,0.522,235.020,15.000,0.000,2.000,17.000
+		16/12/2006,17:30:00,3.702,0.520,235.090,15.800,0.000,1.000,17.000
+		16/12/2006,17:31:00,3.700,0.520,235.220,15.800,0.000,1.000,17.000
+		16/12/2006,17:32:00,3.668,0.510,233.990,15.800,0.000,1.000,17.000
+
+6.
+	6.1 cat hpc.csv | sed 's/Date/Date,Month,Year/g' | tr '/' ',' | cut -d "," -f 3,5,6,8 > transformed.csv
+	6.2 cat transformed.csv | head -n 10
+		Year,Global_active_power,Global_reactive_power,Global_intensity
+		2006,4.216,0.418,18.400
+		2006,5.360,0.436,23.000
+		2006,5.374,0.498,23.000
+		2006,5.388,0.502,23.000
+		2006,3.666,0.528,15.800
+		2006,3.520,0.522,15.000
+		2006,3.702,0.520,15.800
+		2006,3.700,0.520,15.800
+		2006,3.668,0.510,15.800
+
+7.
+	7.1 cat transformed.csv | awk -F ',' '{if($2==2.042)print$0}' > 2p042.csv
+	7.2 cat 2p042.csv | head -n 10
+		2006,2.042,0.090,8.400
+		2006,2.042,0.066,9.000
+		2006,2.042,0.000,8.800
+		2006,2.042,0.182,8.600
+		2006,2.042,0.156,9.200
+		2007,2.042,0.000,8.400
+		2007,2.042,0.000,8.400
+		2007,2.042,0.108,8.600
+		2007,2.042,0.106,8.600
+		2007,2.042,0.000,8.200
+	7.3 wc -l 2p042.csv
+		476 2p042.csv
+
+8. cat transformed.csv | awk -F ',' '{if($1!=2007)print$0}' > tr_no2007.csv
+
+9.
+	9.1 cat tr_no2007.csv | tail -n +2 | shuf | split -l 516553 -d
+	9.2 cat tr_no2007.csv | tail -n +2 | wc -l
+		1549659
+	9.3 wc -l x00
+		516553 x00
+	9.4 wc -l x01
+		516553 x01
+	9.5 wc -l x02
+		516553 x02
+	9.6 cat x00 | head -n 10
+		2009,0.966,0.352,4.200
+		2009,0.592,0.054,3.000
+		2010,1.606,0.188,6.600
+		2010,0.286,0.094,1.200
+		2010,0.396,0.182,1.800
+		2008,0.672,0.000,3.000
+		2008,0.166,0.138,0.800
+		2010,0.842,0.228,3.600
+		2010,3.066,0.374,12.800
+		2009,1.398,0.256,6.000
+
+10. 
+	10.1 tar -c --lzma -f arc.tar.xz gap_max.txt hpc.csv transformed.csv 2p042.csv tr_no2007.csv x00 x01 x02
+	10.2 ls -l --block-size=M
+		-rw-rw-r-- 1 j_wang j_wang  25M Jun 10 01:22 arc.tar.xz

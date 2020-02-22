@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="draw.js"></script>
+	<title>Draw Table</title>
+	<meta content="charset=UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div data-role="page">
+	<!-- <form id='numform'> -->
+	<div data-role="header" data-id="persistent" data-position="fixed" style="overflow: hidden;">
+		<h1>Draw Table</h1>
+	</div>
+	<div data-role="navbar">
+		<ul>
+			<li>
+				<a href="name.html" class="ui-btn-active ui-state-persist">Student Information
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div data-role="content" class="content">
+		<label >Enter Numbers</label>
+		<label for="min">Min:</label>
+		<input type='number' name='min' id='min'>
+		<label for="max">Max:</label>
+		<input type='number' name='max' id='max'>
+	<br>
+	<br>
+	<br>
+	<button onclick="draw();">Draw</button>
+	<br>
+	<br>
+	</div>
+	<table id='result' data-role="table" class="ui-body-d ui-shadow table-stripe ui-responsive">
+	</table>
+	<div data-role="footer" data-id="persistent" data-position="fixed" style="overflow: hidden;">
+		<h1>Redeveloped by Jiye Wang.</h1>
+	</div>
+	<!-- </form> -->
+</div>
+</body>
+</html>
