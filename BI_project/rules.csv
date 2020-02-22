@@ -1,0 +1,164 @@
+,item1,item2,support,confidence,lift
+0,"('Advantus Push Pins, Aluminum Head',)","('#10 White Business Envelopes,4 1/8 x 9 1/2',)",0.003778337531486146,0.2727272727272727,16.657342657342657
+1,"('#10 White Business Envelopes,4 1/8 x 9 1/2',)","('Advantus Push Pins, Aluminum Head',)",0.003778337531486146,0.23076923076923078,16.657342657342657
+2,"('Global Leather and Oak Executive Chair, Black',)","('12 Colored Short Pencils',)",0.003778337531486146,0.21428571428571427,13.08791208791209
+3,"('12 Colored Short Pencils',)","('Global Leather and Oak Executive Chair, Black',)",0.003778337531486146,0.23076923076923078,13.08791208791209
+4,"('Hoover WindTunnel™ Plus Canister Vacuum',)","('12-1/2 Diameter Round Wall Clock',)",0.003778337531486146,0.23076923076923078,15.269230769230768
+5,"('12-1/2 Diameter Round Wall Clock',)","('Hoover WindTunnel™ Plus Canister Vacuum',)",0.003778337531486146,0.25,15.269230769230768
+6,"('LX 677',)","('1726 Digital Answering Machine',)",0.003778337531486146,0.3333333333333333,14.703703703703704
+7,"(""O'Sullivan Elevations Bookcase, Cherry Finish"",)","('1726 Digital Answering Machine',)",0.003778337531486146,0.21428571428571427,9.452380952380953
+8,"('Southworth 25% Cotton Premium Laser Paper and Envelopes',)","('1726 Digital Answering Machine',)",0.003778337531486146,0.23076923076923078,10.17948717948718
+9,"('Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39"" x 49""',)","('1726 Digital Answering Machine',)",0.003778337531486146,0.25,11.027777777777777
+10,"('GBC Standard Plastic Binding Systems Combs',)","('3M Organizer Strips',)",0.003778337531486146,0.23076923076923078,15.269230769230768
+11,"('3M Organizer Strips',)","('GBC Standard Plastic Binding Systems Combs',)",0.003778337531486146,0.25,15.269230769230768
+12,"('Accessory8',)","('6120',)",0.003778337531486146,0.3,21.654545454545456
+13,"('6120',)","('Accessory8',)",0.003778337531486146,0.2727272727272727,21.654545454545456
+14,"('Durable Pressboard Binders',)","('80 Minute CD-R Spindle, 100/Pack - Staples',)",0.003778337531486146,0.21428571428571427,8.507142857142856
+15,"('Eldon Expressions Mahogany Wood Desk Collection',)","('80 Minute CD-R Spindle, 100/Pack - Staples',)",0.003778337531486146,0.25,9.924999999999999
+16,"('Xerox 220',)","('80 Minute CD-R Spindle, 100/Pack - Staples',)",0.003778337531486146,0.3,11.91
+17,"('8860',)","('Bevis 36 x 72 Conference Tables',)",0.003778337531486146,0.25,9.022727272727273
+18,"('Ibico Covers for Plastic or Wire Binding Elements',)","('8860',)",0.003778337531486146,0.3,19.849999999999998
+19,"('8860',)","('Ibico Covers for Plastic or Wire Binding Elements',)",0.003778337531486146,0.25,19.849999999999998
+20,"('GBC Standard Therm-A-Bind Covers',)","('Accessory23',)",0.003778337531486146,0.2,31.76
+21,"('Accessory23',)","('GBC Standard Therm-A-Bind Covers',)",0.003778337531486146,0.6,31.76
+22,"('Global Adaptabilities™ Conference Tables',)","('Accessory35',)",0.003778337531486146,0.25,14.178571428571429
+23,"('Accessory35',)","('Global Adaptabilities™ Conference Tables',)",0.003778337531486146,0.21428571428571427,14.178571428571429
+24,"('Unpadded Memo Slips',)","('Accessory36',)",0.003778337531486146,0.375,19.849999999999998
+25,"('Accessory36',)","('Unpadded Memo Slips',)",0.003778337531486146,0.2,19.849999999999998
+26,"('Xerox 1949',)","('Accessory41',)",0.003778337531486146,0.25,16.541666666666668
+27,"('Accessory41',)","('Xerox 1949',)",0.003778337531486146,0.25,16.541666666666668
+28,"('Adams Phone Message Book, 200 Message Capacity, 8 1/16” x 11”',)","('Accessory6',)",0.003778337531486146,0.3,19.849999999999998
+29,"('Accessory6',)","('Adams Phone Message Book, 200 Message Capacity, 8 1/16” x 11”',)",0.003778337531486146,0.25,19.849999999999998
+30,"('Global Leather and Oak Executive Chair, Black',)","('Adesso Programmable 142-Key Keyboard',)",0.003778337531486146,0.21428571428571427,9.452380952380953
+31,"('Sanford 52201 APSCO Electric Pencil Sharpener',)","('Advantus Push Pins, Aluminum Head',)",0.003778337531486146,0.3,21.654545454545456
+32,"('Advantus Push Pins, Aluminum Head',)","('Sanford 52201 APSCO Electric Pencil Sharpener',)",0.003778337531486146,0.2727272727272727,21.654545454545456
+33,"('Aluminum Document Frame',)","('Bush Mission Pointe Library',)",0.003778337531486146,0.23076923076923078,10.778280542986424
+34,"('Xerox 1923',)","('Aluminum Document Frame',)",0.003778337531486146,0.375,22.903846153846153
+35,"('Aluminum Document Frame',)","('Xerox 1923',)",0.003778337531486146,0.23076923076923078,22.903846153846153
+36,"('Staples 4 Outlet Surge Protector',)","('Angle-D Binders with Locking Rings, Label Holders',)",0.003778337531486146,0.3,23.82
+37,"('Angle-D Binders with Locking Rings, Label Holders',)","('Staples 4 Outlet Surge Protector',)",0.003778337531486146,0.3,23.82
+38,"('Array® Parchment Paper, Assorted Colors',)","('Fellowes Basic 104-Key Keyboard, Platinum',)",0.003778337531486146,0.23076923076923078,11.451923076923077
+39,"('Eldon Expressions Mahogany Wood Desk Collection',)","('Avery 479',)",0.003778337531486146,0.25,19.849999999999998
+40,"('Avery 479',)","('Eldon Expressions Mahogany Wood Desk Collection',)",0.003778337531486146,0.3,19.849999999999998
+41,"('Staples Brown Kraft Recycled Clasp Envelopes',)","('Avery 481',)",0.003778337531486146,0.2727272727272727,15.467532467532468
+42,"('Avery 481',)","('Staples Brown Kraft Recycled Clasp Envelopes',)",0.003778337531486146,0.21428571428571427,15.467532467532468
+43,"('Bretford CR4500 Series Slim Rectangular Table',)","('Avery 494',)",0.003778337531486146,0.2,9.341176470588234
+44,"('Newell 340',)","('Avery 501',)",0.003778337531486146,0.2,15.88
+45,"('Avery 501',)","('Newell 340',)",0.003778337531486146,0.3,15.88
+46,"('Office Star - Contemporary Task Swivel chair with 2-way adjustable arms, Plum',)","('Avery 506',)",0.003778337531486146,0.25,12.40625
+47,"('Xerox 197',)","('Avery 506',)",0.003778337531486146,0.3333333333333333,16.541666666666668
+48,"('Durable Pressboard Binders',)","('Avery 508',)",0.003778337531486146,0.21428571428571427,10.633928571428571
+49,"('Lexmark Z54se Color Inkjet Printer',)","('Avery Printable Repositionable Plastic Tabs',)",0.003778337531486146,0.2727272727272727,18.045454545454547
+50,"('Avery Printable Repositionable Plastic Tabs',)","('Lexmark Z54se Color Inkjet Printer',)",0.003778337531486146,0.25,18.045454545454547
+51,"('M3682',)","('Belkin 105-Key Black Keyboard',)",0.003778337531486146,0.25,13.233333333333333
+52,"('Belkin 105-Key Black Keyboard',)","('M3682',)",0.003778337531486146,0.2,13.233333333333333
+53,"('Micro Innovations 104 Keyboard',)","('Belkin 105-Key Black Keyboard',)",0.005037783375314861,0.36363636363636365,19.248484848484846
+54,"('Belkin 105-Key Black Keyboard',)","('Micro Innovations 104 Keyboard',)",0.005037783375314861,0.26666666666666666,19.248484848484846
+55,"('Snap-A-Way® Black Print Carbonless Ruled Speed Letter, Triplicate',)","('Belkin 105-Key Black Keyboard',)",0.005037783375314861,0.23529411764705882,12.454901960784312
+56,"('Belkin 105-Key Black Keyboard',)","('Snap-A-Way® Black Print Carbonless Ruled Speed Letter, Triplicate',)",0.005037783375314861,0.26666666666666666,12.454901960784312
+57,"('Binney & Smith inkTank™ Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box',)","('Belkin F9M820V08 8 Outlet Surge',)",0.003778337531486146,0.5,33.083333333333336
+58,"('Belkin F9M820V08 8 Outlet Surge',)","('Binney & Smith inkTank™ Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box',)",0.003778337531486146,0.25,33.083333333333336
+59,"('Belkin Premiere Surge Master II 8-outlet surge protector',)","('Office Star - Mid Back Dual function Ergonomic High Back Chair with 2-Way Adjustable Arms',)",0.003778337531486146,0.5,22.055555555555554
+60,"('Iceberg OfficeWorks 42"" Round Tables',)","('Bell Sonecor JB700 Caller ID',)",0.003778337531486146,0.23076923076923078,9.643724696356275
+61,"('Imation 3.5"", RTS 247544 3M 3.5 DSDD, 10/Pack',)","('Bell Sonecor JB700 Caller ID',)",0.003778337531486146,0.3,12.536842105263158
+62,"('Lexmark Z25 Color Inkjet Printer',)","('Bevis 36 x 72 Conference Tables',)",0.003778337531486146,0.42857142857142855,15.467532467532468
+63,"('Cardinal Slant-D® Ring Binder, Heavy Gauge Vinyl',)","('Bevis Steel Folding Chairs',)",0.003778337531486146,0.25,19.849999999999998
+64,"('Bevis Steel Folding Chairs',)","('Cardinal Slant-D® Ring Binder, Heavy Gauge Vinyl',)",0.003778337531486146,0.3,19.849999999999998
+65,"('Global Deluxe Stacking Chair, Gray',)","('Bevis Steel Folding Chairs',)",0.003778337531486146,0.3,23.82
+66,"('Bevis Steel Folding Chairs',)","('Global Deluxe Stacking Chair, Gray',)",0.003778337531486146,0.3,23.82
+67,"('Telescoping Adjustable Floor Lamp',)","('Bevis Steel Folding Chairs',)",0.003778337531486146,0.3,23.82
+68,"('Bevis Steel Folding Chairs',)","('Telescoping Adjustable Floor Lamp',)",0.003778337531486146,0.3,23.82
+69,"('Newell 336',)","('Bretford CR4500 Series Slim Rectangular Table',)",0.003778337531486146,0.25,13.233333333333333
+70,"('Bretford CR4500 Series Slim Rectangular Table',)","('Newell 336',)",0.003778337531486146,0.2,13.233333333333333
+71,"('Eldon Expressions Mahogany Wood Desk Collection',)","('Bretford CR8500 Series Meeting Room Furniture',)",0.003778337531486146,0.25,14.178571428571429
+72,"('Bretford CR8500 Series Meeting Room Furniture',)","('Eldon Expressions Mahogany Wood Desk Collection',)",0.003778337531486146,0.21428571428571427,14.178571428571429
+73,"('Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36"" x 48""',)","('Bretford CR8500 Series Meeting Room Furniture',)",0.003778337531486146,0.5,28.357142857142858
+74,"('Bretford CR8500 Series Meeting Room Furniture',)","('Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36"" x 48""',)",0.003778337531486146,0.21428571428571427,28.357142857142858
+75,"('Global Deluxe Stacking Chair, Gray',)","('Bush Mission Pointe Library',)",0.003778337531486146,0.3,14.011764705882353
+76,"(""O'Sullivan Elevations Bookcase, Cherry Finish"",)","('Bush Mission Pointe Library',)",0.003778337531486146,0.21428571428571427,10.008403361344538
+77,"('Fellowes Twister Kit, Gray/Clear, 3/pkg',)","('Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled',)",0.003778337531486146,0.25,19.849999999999998
+78,"('Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled',)","('Fellowes Twister Kit, Gray/Clear, 3/pkg',)",0.003778337531486146,0.3,19.849999999999998
+79,"('Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled',)","('Wilson Jones Hanging View Binder, White, 1""',)",0.003778337531486146,0.3,11.342857142857142
+80,"('Canon Image Class D660 Copier',)","('Bush Westfield Collection Bookcases, Fully Assembled',)",0.003778337531486146,0.75,33.083333333333336
+81,"('Holmes Replacement Filter for HEPA Air Cleaner, Very Large Room, HEPA Filter',)","('Bush Westfield Collection Bookcases, Fully Assembled',)",0.003778337531486146,0.21428571428571427,9.452380952380953
+82,"('White GlueTop Scratch Pads',)","('Bush Westfield Collection Bookcases, Fully Assembled',)",0.003778337531486146,0.3333333333333333,14.703703703703704
+83,"('Eureka Sanitaire ® Multi-Pro Heavy-Duty Upright, Disposable Bags',)","('CF 688',)",0.003778337531486146,0.42857142857142855,37.80952380952381
+84,"('CF 688',)","('Eureka Sanitaire ® Multi-Pro Heavy-Duty Upright, Disposable Bags',)",0.003778337531486146,0.3333333333333333,37.80952380952381
+85,"(""Lock-Up Easel 'Spel-Binder'"",)","('Canon PC1080F Personal Copier',)",0.003778337531486146,0.2,22.685714285714283
+86,"('Canon PC1080F Personal Copier',)","(""Lock-Up Easel 'Spel-Binder'"",)",0.003778337531486146,0.42857142857142855,22.685714285714283
+87,"('StarTAC 3000',)","('Canon PC940 Copier',)",0.003778337531486146,0.6,28.023529411764706
+88,"('Xerox 1937',)","('Canon PC940 Copier',)",0.003778337531486146,0.3333333333333333,15.568627450980392
+89,"('Letter Size Cart',)","('DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size',)",0.003778337531486146,0.42857142857142855,37.80952380952381
+90,"('DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size',)","('Letter Size Cart',)",0.003778337531486146,0.3333333333333333,37.80952380952381
+91,"('Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table',)","('Durable Pressboard Binders',)",0.003778337531486146,0.2727272727272727,15.467532467532468
+92,"('Durable Pressboard Binders',)","('Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table',)",0.003778337531486146,0.21428571428571427,15.467532467532468
+93,"('Prang Drawing Pencil Set',)","('Eldon Econocleat® Chair Mats for Low Pile Carpets',)",0.003778337531486146,0.23076923076923078,26.17582417582418
+94,"('Eldon Econocleat® Chair Mats for Low Pile Carpets',)","('Prang Drawing Pencil Set',)",0.003778337531486146,0.42857142857142855,26.17582417582418
+95,"('Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36"" x 48""',)","('Eldon Expressions Mahogany Wood Desk Collection',)",0.003778337531486146,0.5,33.083333333333336
+96,"('Eldon Expressions Mahogany Wood Desk Collection',)","('Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36"" x 48""',)",0.003778337531486146,0.25,33.083333333333336
+97,"('Eldon Pizzaz™ Desk Accessories',)","('Staples 6 Outlet Surge',)",0.003778337531486146,0.6,29.775000000000002
+98,"('Global Adaptabilities™ Conference Tables',)","('Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac',)",0.003778337531486146,0.25,15.269230769230768
+99,"('Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac',)","('Global Adaptabilities™ Conference Tables',)",0.003778337531486146,0.23076923076923078,15.269230769230768
+100,"('T28 WORLD',)","('Executive Impressions 13"" Chairman Wall Clock',)",0.003778337531486146,0.23076923076923078,20.35897435897436
+101,"('Executive Impressions 13"" Chairman Wall Clock',)","('T28 WORLD',)",0.003778337531486146,0.3333333333333333,20.35897435897436
+102,"('Executive Impressions 14""',)","('Verbatim DVD-RAM, 5.2GB, Rewritable, Type 1, DS',)",0.003778337531486146,0.75,37.21875
+103,"('Newell 310',)","('Fellowes Staxonsteel® Drawer Files',)",0.003778337531486146,0.21428571428571427,15.467532467532468
+104,"('Fellowes Staxonsteel® Drawer Files',)","('Newell 310',)",0.003778337531486146,0.2727272727272727,15.467532467532468
+105,"('Staples Standard Envelopes',)","('Fellowes Stor/Drawer® Steel Plus™ Storage Drawers',)",0.003778337531486146,0.2727272727272727,27.06818181818182
+106,"('Fellowes Stor/Drawer® Steel Plus™ Storage Drawers',)","('Staples Standard Envelopes',)",0.003778337531486146,0.375,27.06818181818182
+107,"('GBC Standard Therm-A-Bind Covers',)","('Fiskars® Softgrip Scissors',)",0.003778337531486146,0.2,7.561904761904761
+108,"('Hewlett-Packard cp1700 [D, PS] Series Color Inkjet Printers',)","('Fiskars® Softgrip Scissors',)",0.003778337531486146,0.3,11.342857142857142
+109,"('T18',)","('G.E. Longer-Life Indoor Recessed Floodlight Bulbs',)",0.003778337531486146,0.3333333333333333,37.80952380952381
+110,"('G.E. Longer-Life Indoor Recessed Floodlight Bulbs',)","('T18',)",0.003778337531486146,0.42857142857142855,37.80952380952381
+111,"('TI 36X Solar Scientific Calculator',)","('GBC DocuBind 200 Manual Binding Machine',)",0.003778337531486146,0.375,18.609375
+112,"('Xerox 197',)","('GBC DocuBind 200 Manual Binding Machine',)",0.003778337531486146,0.3333333333333333,16.541666666666668
+113,"('GBC Standard Plastic Binding Systems Combs',)","('Memorex 4.7GB DVD+RW, 3/Pack',)",0.003778337531486146,0.23076923076923078,9.643724696356275
+114,"('GBC Standard Therm-A-Bind Covers',)","('Memorex 4.7GB DVD+RW, 3/Pack',)",0.003778337531486146,0.2,8.357894736842105
+115,"('Xerox 1891',)","('GBC VeloBinder Electric Binding Machine',)",0.003778337531486146,0.2727272727272727,19.68595041322314
+116,"('GBC VeloBinder Electric Binding Machine',)","('Xerox 1891',)",0.003778337531486146,0.2727272727272727,19.68595041322314
+117,"('T193',)","('Global Commerce™ Series High-Back Swivel/Tilt Chairs',)",0.003778337531486146,0.42857142857142855,37.80952380952381
+118,"('Global Commerce™ Series High-Back Swivel/Tilt Chairs',)","('T193',)",0.003778337531486146,0.3333333333333333,37.80952380952381
+119,"('Memorex 4.7GB DVD-RAM, 3/Pack',)","('Global High-Back Leather Tilter, Burgundy',)",0.003778337531486146,0.23076923076923078,7.634615384615384
+120,"('T28 WORLD',)","('Global High-Back Leather Tilter, Burgundy',)",0.003778337531486146,0.23076923076923078,7.634615384615384
+121,"('Global Stack Chair without Arms, Black',)","('Memorex 4.7GB DVD+RW, 3/Pack',)",0.003778337531486146,0.21428571428571427,8.954887218045112
+122,"('Portfile® Personal File Boxes',)","('Hewlett Packard LaserJet 3310 Copier',)",0.003778337531486146,0.3333333333333333,26.466666666666665
+123,"('Hewlett Packard LaserJet 3310 Copier',)","('Portfile® Personal File Boxes',)",0.003778337531486146,0.3,26.466666666666665
+124,"('Metal Folding Chairs, Beige, 4/Carton',)","('Hon 4700 Series Mobuis™ Mid-Back Task Chairs with Adjustable Arms',)",0.003778337531486146,0.375,29.775000000000002
+125,"('Hon 4700 Series Mobuis™ Mid-Back Task Chairs with Adjustable Arms',)","('Metal Folding Chairs, Beige, 4/Carton',)",0.003778337531486146,0.3,29.775000000000002
+126,"('Hoover Upright Vacuum With Dirt Cup',)","('Hon iLevel™ Computer Training Table',)",0.003778337531486146,1.0,66.16666666666667
+127,"('Hon iLevel™ Computer Training Table',)","('Hoover Upright Vacuum With Dirt Cup',)",0.003778337531486146,0.25,66.16666666666667
+128,"('LX 677',)","('Hoover Portapower™ Portable Vacuum',)",0.003778337531486146,0.3333333333333333,14.703703703703704
+129,"('Smead Adjustable Mobile File Trolley with Lockable Top',)","('Hoover Portapower™ Portable Vacuum',)",0.003778337531486146,0.2727272727272727,12.030303030303031
+130,"('White Dual Perf Computer Printout Paper, 2700 Sheets, 1 Part, Heavyweight, 20 lbs., 14 7/8 x 11',)","('Hoover Portapower™ Portable Vacuum',)",0.003778337531486146,0.3333333333333333,14.703703703703704
+131,"('Iceberg OfficeWorks 42"" Round Tables',)","('Hoover WindTunnel™ Plus Canister Vacuum',)",0.003778337531486146,0.23076923076923078,14.094674556213018
+132,"('Hoover WindTunnel™ Plus Canister Vacuum',)","('Iceberg OfficeWorks 42"" Round Tables',)",0.003778337531486146,0.23076923076923078,14.094674556213018
+133,"('Sauder Forest Hills Library, Woodland Oak Finish',)","('Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock',)",0.003778337531486146,0.21428571428571427,34.028571428571425
+134,"('Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock',)","('Sauder Forest Hills Library, Woodland Oak Finish',)",0.003778337531486146,0.6,34.028571428571425
+135,"('Keytronic French Keyboard',)","('StarTAC 7760',)",0.003778337531486146,0.2,7.94
+136,"('Universal Premium White Copier/Laser Paper (20Lb. and 87 Bright)',)","(""Lock-Up Easel 'Spel-Binder'"",)",0.003778337531486146,0.5,26.466666666666665
+137,"(""Lock-Up Easel 'Spel-Binder'"",)","('Universal Premium White Copier/Laser Paper (20Lb. and 87 Bright)',)",0.003778337531486146,0.2,26.466666666666665
+138,"('Zoom V.92 USB External Faxmodem',)","(""Lock-Up Easel 'Spel-Binder'"",)",0.003778337531486146,0.6,31.76
+139,"(""Lock-Up Easel 'Spel-Binder'"",)","('Zoom V.92 USB External Faxmodem',)",0.003778337531486146,0.2,31.76
+140,"('Xerox 1932',)","('Master Giant Foot® Doorstop, Safety Yellow',)",0.003778337531486146,0.375,14.178571428571429
+141,"('XtraLife® ClearVue™ Slant-D® Ring Binders by Cardinal',)","('Microsoft Internet Keyboard',)",0.003778337531486146,0.42857142857142855,21.267857142857142
+142,"('Sanford 52201 APSCO Electric Pencil Sharpener',)","('Newell 309',)",0.003778337531486146,0.3,21.654545454545456
+143,"('Newell 309',)","('Sanford 52201 APSCO Electric Pencil Sharpener',)",0.003778337531486146,0.2727272727272727,21.654545454545456
+144,"('Tenex Personal Project File with Scoop Front Design, Black',)","('Newell 312',)",0.003778337531486146,0.21428571428571427,12.153061224489797
+145,"('Newell 312',)","('Tenex Personal Project File with Scoop Front Design, Black',)",0.003778337531486146,0.21428571428571427,12.153061224489797
+146,"('Safco Industrial Wire Shelving',)","('Newell 339',)",0.003778337531486146,0.3333333333333333,37.80952380952381
+147,"('Newell 339',)","('Safco Industrial Wire Shelving',)",0.003778337531486146,0.42857142857142855,37.80952380952381
+148,"('Wilson Jones 1"" Hanging DublLock® Ring Binders',)","('Panasonic KX-P1150 Dot Matrix Printer',)",0.003778337531486146,0.2727272727272727,13.53409090909091
+149,"('Staples Metal Binder Clips',)","('Portfile® Personal File Boxes',)",0.003778337531486146,0.23076923076923078,20.35897435897436
+150,"('Portfile® Personal File Boxes',)","('Staples Metal Binder Clips',)",0.003778337531486146,0.3333333333333333,20.35897435897436
+151,"('Prang Drawing Pencil Set',)","('Timeport L7089',)",0.003778337531486146,0.23076923076923078,10.778280542986424
+152,"('Staples SlimLine Pencil Sharpener',)","('Project Tote Personal File',)",0.003778337531486146,0.2727272727272727,30.935064935064936
+153,"('Project Tote Personal File',)","('Staples SlimLine Pencil Sharpener',)",0.003778337531486146,0.42857142857142855,30.935064935064936
+154,"('Talkabout T8367',)","('SAFCO Folding Chair Trolley',)",0.003778337531486146,0.21428571428571427,15.467532467532468
+155,"('SAFCO Folding Chair Trolley',)","('Talkabout T8367',)",0.003778337531486146,0.2727272727272727,15.467532467532468
+156,"('Xerox 1894',)","('Serrated Blade or Curved Handle Hand Letter Openers',)",0.003778337531486146,0.2,11.342857142857142
+157,"('Serrated Blade or Curved Handle Hand Letter Openers',)","('Xerox 1894',)",0.003778337531486146,0.21428571428571427,11.342857142857142
+158,"('Tenex Personal Project File with Scoop Front Design, Black',)","('Staples Metal Binder Clips',)",0.003778337531486146,0.21428571428571427,13.08791208791209
+159,"('Staples Metal Binder Clips',)","('Tenex Personal Project File with Scoop Front Design, Black',)",0.003778337531486146,0.23076923076923078,13.08791208791209
+160,"('Wirebound Message Books, Four 2 3/4"" x 5"" Forms per Page, 600 Sets per Book',)","('StarTAC 7760',)",0.003778337531486146,0.3333333333333333,13.233333333333333
+161,"('Talkabout T8367',)","('Verbatim DVD-RAM, 5.2GB, Rewritable, Type 1, DS',)",0.003778337531486146,0.21428571428571427,10.633928571428571
+162,"('Wilson Jones 1"" Hanging DublLock® Ring Binders',)","('US Robotics 56K V.92 External Faxmodem',)",0.003778337531486146,0.2727272727272727,12.030303030303031
